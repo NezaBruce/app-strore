@@ -37,3 +37,15 @@ footer li {
   margin-bottom: 10px;
   opacity: 0.5;
 }
+.box-img{
+ width: 10%; 
+ height: 20%; 
+ color: #fff;
+ z-index: 999;
+}
+.box-img img{
+  color: #fff;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+}

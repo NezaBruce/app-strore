@@ -1,52 +1,65 @@
 import React from "react"
 import "./style.css"
-
+// import ''
 const Footer = () => {
   return (
     <>
       <footer>
         <div className='container grid2'>
           <div className='box'>
-            <h1>Bonik</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor libero id et, in gravida. Sit diam duis mauris nulla cursus. Erat et lectus vel ut sollicitudin elit at amet.</p>
-            <div className='icon d_flex'>
-              <div className='img d_flex'>
-                <i class='fa-brands fa-google-play'></i>
-                <span>Google Play</span>
-              </div>
-              <div className='img d_flex'>
-                <i class='fa-brands fa-app-store-ios'></i>
-                <span>App Store</span>
-              </div>
+            <div className="box-img">
+            <img src="../../../public/footLogo.png" alt="" srcset="" />
+            {/* <img src="../../../public/footr-logo.svg" alt="" srcset="" /> */}
             </div>
           </div>
 
           <div className='box'>
-            <h2>About Us</h2>
+            <h2>App categories</h2>
             <ul>
+              <li>Finding products</li>
+              <li>Selling products</li>
+              <li>Orders and shipping</li>
+              <li>Store design</li>
+              <li>Marketing and conversion</li>
+              <li>Store management</li>
+            </ul>
+          </div>
+          <div className='box'>
+            <h2>Popular topics</h2>
+            <ul>
+              <li>Dropshipping</li>
+              <li>Email marketing</li>
+              <li>Advertising</li>
+              <li>Selling methods</li>
+              <li>Social proof</li>
+              <li>Search engine optimization</li>
+              <li>Upselling and cross-selling</li>
+              <li>Fulfilling orders</li>
+            </ul>
+          </div>
+          <div className='box'>
+            <h2>Resources</h2>
+            <ul>
+              <li>24/7 support</li>
+              <li>Shopify Help Center</li>
+              <li>API documentation</li>
+              <li>Shopify community</li>
+              <li>Community events</li>
+              <li>Shopify blog</li>
+              <li>Research</li>
+            </ul>
+          </div>
+          <div className='box'>
+            <h2>Shopify</h2>
+            <ul>
+              <li>About</li>
+              <li>Contact</li>
               <li>Careers</li>
-              <li>Our Stores</li>
-              <li>Our Cares</li>
-              <li>Terms & Conditions</li>
-              <li>Privacy Policy</li>
-            </ul>
-          </div>
-          <div className='box'>
-            <h2>Customer Care</h2>
-            <ul>
-              <li>Help Center </li>
-              <li>How to Buy </li>
-              <li>Track Your Order </li>
-              <li>Corporate & Bulk Purchasing </li>
-              <li>Returns & Refunds </li>
-            </ul>
-          </div>
-          <div className='box'>
-            <h2>Contact Us</h2>
-            <ul>
-              <li>70 Washington Square South, New York, NY 10012, United States </li>
-              <li>Email: uilib.help@gmail.com</li>
-              <li>Phone: +1 1123 456 780</li>
+              <li>Press and media</li>
+              <li>Partner program</li>
+              <li>Affiliate program</li>
+              <li>Investors</li>
+              <li>Legal</li>
             </ul>
           </div>
         </div>
