@@ -24,11 +24,18 @@ const Search = ({ CartItem }) => {
           </div>
 
           <div className='icon f_flex width'>
-            <i className='fa fa-user icon-circle'></i>
-            <div className='cart'>
+            <div className='login'>
               <Link to='/cart'>
                 <i className='fa fa-shopping-bag icon-circle'></i>
                 {/* <span>{CartItem.length === 0 ? "" : CartItem.length}</span> */}
+                Login
+              </Link>
+            </div>
+            <div className='signup'>
+              <Link to='/cart'>
+                <i className='fa fa-shopping-bag icon-circle'></i>
+                {/* <span>{CartItem.length === 0 ? "" : CartItem.length}</span> */}
+                <span>Signup</span>
               </Link>
             </div>
           </div>

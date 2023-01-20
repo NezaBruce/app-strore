@@ -16,6 +16,9 @@
 
 .search {
   padding: 20px 0;
+  /* background-color: rebeccapurple; */
+  box-shadow: 1px 0.1px 1px black;
+  margin-bottom: 40px;
 }
 .search .logo img {
   width: auto;
@@ -54,6 +57,19 @@
 }
 .cart {
   position: relative;
+  background-color: red;
+}
+.login:hover{
+  text-decoration: underline;
+}
+.signup{
+  /* width: 2rem; */
+}
+.signup span{
+  background-color: #000;
+  color: #fff;
+  padding: 0.7rem 2rem;
+  border-radius: 25px;
 }
 .search .cart span {
   position: absolute;
@@ -66,6 +82,7 @@
   background-color: #e94560;
   font-size: 12px;
   color: #fff;
+
 }
 .search .f_flex {
   justify-content: end;
