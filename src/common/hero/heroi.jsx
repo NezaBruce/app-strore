@@ -18,7 +18,7 @@ const Heroi = () => {
         <div className="ratings-style">
           <div className="ratings">
             <p className="heroi-heading">Rating (4)</p>
-            <img src="../../../public/ratings.svg" alt="" srcset="" />
+            <img src="../../../ratings.svg" alt="" srcset="" />
           </div>
           <div className="reviews">
             <p className="heroi-heading">Reviews</p>

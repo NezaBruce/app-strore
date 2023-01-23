@@ -1,0 +1,83 @@
+.about{
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    height: 70%;
+    width: 100%;
+}
+.l-about{
+    width: 17%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.mbt-4{
+    margin-bottom: 1rem;
+}
+.l-about-img{
+    display: flex;
+    flex-direction: row;
+}
+.l-aboutp-img img{
+    display: inline;
+    margin-bottom: -0.2rem;
+    }
+.l-aboutp-img span{
+    margin-left: 1rem;
+    font-weight: bold;
+    font-size: 12px;
+}
+.l-aboutp1{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.l-aboutp-p{
+    align-items: center;
+    margin: auto;
+    margin-left: 6%;
+    font-size: 14px;
+    color: gray;
+    font-weight: smaller;
+}
+.mainabout-p{
+    align-items: center;
+    font-size: 14px;
+    color: gray;
+    font-weight: smaller;
+}
+.mainabout h4{
+    margin-top: 2rem;
+}
+.l-aboutp1 a{
+    text-decoration: underline;
+    font-size: 14px;
+}
+.r-about{
+    width: 80%;
+    margin-left: 15%;
+}
+.r-about h2{
+    margin-bottom: 2rem;
+}
+.r-about p{
+    color: gray;
+    font-size: 18px;
+}
+.r-about-timlin{
+    margin-bottom: 2rem;
+}
+.r-about-timlinimg{
+    margin-top: 2rem;
+    align-items: center;
+}
+.r-about-timlinimg img{
+    text-align: center;
+
+    align-items: center;
+    width: 20px;
+    margin-bottom: -0.2rem;
+}
+.r-about-timlinimg span{
+    margin-left:1%;
+    color: gray;
+}

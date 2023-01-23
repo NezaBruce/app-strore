@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='container grid2'>
           <div className='box'>
             <div className="box-img">
-            <img src="../../../public/footLogo.png" alt="" srcset="" />
+            <img src="../../../footLogo.png" alt="" srcset="" />
             {/* <img src="../../../public/footr-logo.svg" alt="" srcset="" /> */}
             </div>
           </div>
